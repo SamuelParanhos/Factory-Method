@@ -12,13 +12,25 @@ public class Orc
         extends StatusInimigos 
         implements Inimigo {
 
+    //<editor-fold defaultstate="collapsed" desc="Construtores">
+    
     public Orc(int nivel, float vida, float defesa, float ataque) {
         super(nivel, vida, defesa, ataque);
     }
 
+    public Orc(int nivel, float vida, float defesa, float ataque, 
+            String frqueza, String resistencias) {
+        super(nivel, vida, defesa, ataque, frqueza, resistencias);
+    }
+    
+    public Orc(){
+        super(10, 80.0f, 20.0f, 18.50f);
+    }
+//</editor-fold>
+    
     @Override
     public void tipoDeInimigo() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("Inimigo do tipo Orc criado");
     }
     
 }

@@ -13,6 +13,7 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
 public abstract class FactoryInimigos {
    
     //Ela e abstrata para forçar as subclasses implementa-la
+    //Fazendo que assim as subclasses criei o objeto correto
     public abstract Inimigo criarInimigos();
     
     public void planejarInimigo(){
