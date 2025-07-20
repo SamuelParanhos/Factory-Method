@@ -17,7 +17,10 @@ public class StatusInimigos {
     private String frqueza;
     private String resistencias;
     
-
+    //<editor-fold defaultstate="collapsed" desc="Construtores">
+    
+  
+        
     public StatusInimigos(int nivel, float vida, float defesa, float ataque, 
             String frqueza, String resistencias) {
         this.nivel = nivel;
@@ -36,7 +39,11 @@ public class StatusInimigos {
         this.frqueza = null;
         this.resistencias = null;
     }
+//</editor-fold>
 
+    
+    //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
+    
     public int getNivel() {
         return nivel;
     }
@@ -84,4 +91,5 @@ public class StatusInimigos {
     public void setResistencias(String resistencias) {
         this.resistencias = resistencias;
     }  
+//</editor-fold>
 }

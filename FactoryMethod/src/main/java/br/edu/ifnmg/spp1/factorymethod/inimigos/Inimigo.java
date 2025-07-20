@@ -11,5 +11,6 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
 public interface Inimigo {
     
     void tipoDeInimigo();
+         
     
 }
