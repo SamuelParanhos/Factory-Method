@@ -6,7 +6,7 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
 
 /**
  *
- * @author rdpp
+ * @author SamuelParanhos
  */
 public class Globin 
         extends StatusInimigos 

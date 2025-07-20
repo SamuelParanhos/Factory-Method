@@ -6,8 +6,10 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
 
 /**
  *
- * @author rdpp
+ * @author SamuelParanhos
  */
+
+//SuperClass para status base dos inimigos
 public class StatusInimigos {
     
     private int nivel;
