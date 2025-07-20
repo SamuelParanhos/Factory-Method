@@ -14,6 +14,5 @@ public interface Inimigo
         extends InterfaceStatus {
     
     void tipoDeInimigo();
-         
-    
+            
 }

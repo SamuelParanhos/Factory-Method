@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 rdpp
+ * Copyright (C) 2025 SamuelParanhos
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -50,7 +50,6 @@ public class FactoryMethod {
 
         // O cliente não faz ideia se está criando um Slime ou um Goblin.
         // Ele apenas pede à fábrica para "criar um inimigo".
-        // Criando um inimigo padrão
         System.out.println("Um inimigo aparece!");
         Inimigo inimigo1 = fabrica.criarInimiigo(); // Usando o método que cria no nível 1
         inimigo1.tipoDeInimigo();
@@ -59,7 +58,6 @@ public class FactoryMethod {
 
         System.out.println("\n-------------------------------------------------\n");
 
-        // 2. Criando um inimigo mais forte (nível 5), usando o método parametrizado
         System.out.println("Um inimigo mais forte aparece!");
         Inimigo inimigo2 = fabrica.criarInimigo(5);
         inimigo2.tipoDeInimigo();
