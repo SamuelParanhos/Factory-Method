@@ -12,7 +12,15 @@ public class FactorySlime
         extends FactoryInimigos {
 
     @Override
-    public Inimigo criarInimigos() {
-        return new Slime();
+    public Inimigo criarInimigos(int nivel) {
+        float vidabase = 10.0f;
+        float defesabase = 2.0f;
+        float ataquebase = 2.0f;
+        
+        vidabase = vidabase * (nivel / 2);
+        defesabase = defesabase + (nivel / 2);
+        ataquebase = ataquebase * (nivel / 2);
+        
+        return new Slime(nivel,vidabase,defesabase,ataquebase);
     } 
 }

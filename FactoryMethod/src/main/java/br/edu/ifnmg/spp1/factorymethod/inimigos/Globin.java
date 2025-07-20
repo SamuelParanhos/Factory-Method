@@ -22,10 +22,6 @@ public class Globin
             String frqueza, String resistencias) { 
         super(nivel, vida, defesa, ataque, frqueza, resistencias);
     }
-    
-    public Globin(){
-        super(5,20.0f,5.5f,12.5f);
-    }
 //</editor-fold>
     
     @Override

@@ -22,10 +22,6 @@ public class Orc
             String frqueza, String resistencias) {
         super(nivel, vida, defesa, ataque, frqueza, resistencias);
     }
-    
-    public Orc(){
-        super(10, 80.0f, 20.0f, 18.50f);
-    }
 //</editor-fold>
     
     @Override
