@@ -9,12 +9,18 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
  * @author SamuelParanhos
  */
 public class Slime 
-              implements Inimigo{
+        extends StatusInimigos
+              implements Inimigo {
 
+    public Slime(int nivel, float vida, float defesa, float ataque) {
+        super(nivel, vida, defesa, ataque);
+    }
+  
     @Override
     public void tipoDeInimigo() {
         
+        System.out.println("Inimigo do tipo Slime criado");
+        
     }
-    
     
 }
