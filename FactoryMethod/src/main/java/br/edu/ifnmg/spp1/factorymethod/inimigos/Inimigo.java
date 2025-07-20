@@ -4,11 +4,14 @@
  */
 package br.edu.ifnmg.spp1.factorymethod.inimigos;
 
+import br.edu.ifnmg.spp1.factorymethod.InterfaceStatus;
+
 /**
  *
  * @author SamuelParanhos
  */
-public interface Inimigo {
+public interface Inimigo 
+        extends InterfaceStatus {
     
     void tipoDeInimigo();
          

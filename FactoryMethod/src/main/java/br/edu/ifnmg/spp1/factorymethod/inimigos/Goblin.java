@@ -8,19 +8,19 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
  *
  * @author SamuelParanhos
  */
-public class Globin 
+public class Goblin 
         extends StatusInimigos 
         implements Inimigo {
     
    //<editor-fold defaultstate="collapsed" desc="Construtores">
     
-    public Globin(int nivel, float vida, float defesa, float ataque) {
+    public Goblin(int nivel, float vida, float defesa, float ataque) {
         super(nivel, vida, defesa, ataque);
     }
 
-    public Globin(int nivel, float vida, float defesa, float ataque, 
-            String frqueza, String resistencias) { 
-        super(nivel, vida, defesa, ataque, frqueza, resistencias);
+    public Goblin(int nivel, float vida, float defesa, float ataque, 
+            String fraqueza, String resistencias) { 
+        super(nivel, vida, defesa, ataque, fraqueza, resistencias);
     }
 //</editor-fold>
     

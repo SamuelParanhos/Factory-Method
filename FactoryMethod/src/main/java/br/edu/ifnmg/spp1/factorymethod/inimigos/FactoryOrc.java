@@ -12,7 +12,7 @@ public class FactoryOrc
         extends FactoryInimigos {
 
     @Override
-    public Inimigo criarInimigos(int nivel) {
+    public Inimigo criarInimigo(int nivel) {
         float vida = 50.0f;
         float defesa = 20.0f;
         float ataque = 18.0f;

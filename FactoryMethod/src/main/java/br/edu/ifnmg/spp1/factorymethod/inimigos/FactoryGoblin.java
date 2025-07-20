@@ -8,11 +8,11 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
  *
  * @author SamuelParanhos
  */
-public class FactoryGlobin
+public class FactoryGoblin
         extends FactoryInimigos {
 
     @Override
-    public Inimigo criarInimigos(int nivel) {
+    public Inimigo criarInimigo(int nivel) {
         float vida = 20.0f;
         float defesa = 1.0f;
         float ataque = 10.0f;
@@ -23,7 +23,7 @@ public class FactoryGlobin
             ataque = ataque + (nivel * 2);
         }
 
-        return new Globin(nivel, vida, defesa, ataque);
+        return new Goblin(nivel, vida, defesa, ataque);
 
     }
 

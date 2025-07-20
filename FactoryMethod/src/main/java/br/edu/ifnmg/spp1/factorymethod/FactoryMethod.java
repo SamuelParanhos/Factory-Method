@@ -17,13 +17,22 @@
 
 package br.edu.ifnmg.spp1.factorymethod;
 
+import br.edu.ifnmg.spp1.factorymethod.inimigos.FactoryGoblin;
+import br.edu.ifnmg.spp1.factorymethod.inimigos.FactoryInimigos;
+import br.edu.ifnmg.spp1.factorymethod.inimigos.FactorySlime;
+import br.edu.ifnmg.spp1.factorymethod.inimigos.Inimigo;
+
+
+
 /**
  *
  * @author SamuelParanhos
  */
 public class FactoryMethod {
 
+ private static FactoryInimigos fabrica;
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }

@@ -14,16 +14,16 @@ public abstract class FactoryInimigos {
    
     //Ela e abstrata para forçar as subclasses implementa-la
     //Fazendo que assim as subclasses criei o objeto correto
-    public abstract Inimigo criarInimigos(int nivel);
+    public abstract Inimigo criarInimigo(int nivel);
 
     //Define o nivel padrao do inimigo como 1
-    public Inimigo criInimiigo(){
-        return criarInimigos(1);
+    public Inimigo criarInimiigo(){
+        return criarInimigo(1);
     }
     
     public void planejarInimigo(int nivel){
         //Chama o método para obter o objeto do produto
-        Inimigo t = criarInimigos(nivel);
+        Inimigo t = criarInimigo(nivel);
         
         System.out.println("Gerando Inimigo\n");
         

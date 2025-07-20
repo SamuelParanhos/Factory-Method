@@ -12,7 +12,7 @@ public class FactorySlime
         extends FactoryInimigos {
 
     @Override
-    public Inimigo criarInimigos(int nivel) {
+    public Inimigo criarInimigo(int nivel) {
         float vida = 10.0f;
         float defesa = 2.5f;
         float ataque = 2.0f;
