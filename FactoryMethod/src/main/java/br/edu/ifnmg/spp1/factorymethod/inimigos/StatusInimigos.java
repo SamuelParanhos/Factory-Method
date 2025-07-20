@@ -16,7 +16,7 @@ public class StatusInimigos {
     private float vida;
     private float defesa;
     private float ataque;
-    private String frqueza;
+    private String fraqueza;
     private String resistencias;
     
     //<editor-fold defaultstate="collapsed" desc="Construtores">
@@ -29,7 +29,7 @@ public class StatusInimigos {
         this.vida = vida;
         this.defesa = defesa;
         this.ataque = ataque;
-        this.frqueza = frqueza;
+        this.fraqueza = frqueza;
         this.resistencias = resistencias;
     }
 
@@ -38,7 +38,7 @@ public class StatusInimigos {
         this.vida = vida;
         this.defesa = defesa;
         this.ataque = ataque;
-        this.frqueza = null;
+        this.fraqueza = null;
         this.resistencias = null;
     }
 //</editor-fold>
@@ -79,11 +79,11 @@ public class StatusInimigos {
     }
 
     public String getFrqueza() {
-        return frqueza;
+        return fraqueza;
     }
 
     public void setFrqueza(String frqueza) {
-        this.frqueza = frqueza;
+        this.fraqueza = frqueza;
     }
 
     public String getResistencias() {

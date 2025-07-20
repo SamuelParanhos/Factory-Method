@@ -20,8 +20,8 @@ public class Slime
     }
 
     public Slime(int nivel, float vida, float defesa, float ataque,
-            String frqueza, String resistencias) {
-        super(nivel, vida, defesa, ataque, frqueza, resistencias);
+            String fraqueza, String resistencias) {
+        super(nivel, vida, defesa, ataque, fraqueza, resistencias);
     }  
 //</editor-fold>
   
