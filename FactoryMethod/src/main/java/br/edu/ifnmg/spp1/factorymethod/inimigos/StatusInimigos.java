@@ -4,15 +4,14 @@
  */
 package br.edu.ifnmg.spp1.factorymethod.inimigos;
 
-import br.edu.ifnmg.spp1.factorymethod.InterfaceStatus;
 
 /**
  *
  * @author SamuelParanhos
  */
 //SuperClass para status base dos inimigos
-public class StatusInimigos
-        implements InterfaceStatus {
+public abstract class StatusInimigos
+        implements Inimigo {
 
     private int nivel;
     private float vida;
@@ -103,4 +102,7 @@ public class StatusInimigos
         this.resistencia = resistencia;
     }
 //</editor-fold>
+
+    @Override
+    public abstract void tipoDeInimigo();//Passa a ser obrigação das subclasses
 }
