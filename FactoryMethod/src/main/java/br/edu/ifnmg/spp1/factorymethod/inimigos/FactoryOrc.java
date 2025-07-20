@@ -6,23 +6,23 @@ package br.edu.ifnmg.spp1.factorymethod.inimigos;
 
 /**
  *
- * @author SamuelParanhos
+ * @author rdpp
  */
-public class FactorySlime
+public class FactoryOrc
         extends FactoryInimigos {
 
     @Override
     public Inimigo criarInimigos(int nivel) {
-        float vida = 10.0f;
-        float defesa = 2.5f;
-        float ataque = 2.0f;
+        float vida = 50.0f;
+        float defesa = 20.0f;
+        float ataque = 18.0f;
 
         if (nivel > 1) {
             vida = vida * (nivel / 2);
-            defesa = defesa + (nivel / 2);
-            ataque = ataque* (nivel / 2);
+            defesa = defesa + (2 * nivel);
+            ataque = ataque + (nivel * 3);
         }
-
-        return new Slime(nivel, vida, defesa, ataque);
+        return new Orc(nivel, vida, defesa, ataque);
     }
+
 }

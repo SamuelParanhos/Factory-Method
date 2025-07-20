@@ -23,11 +23,6 @@ public class Slime
             String frqueza, String resistencias) {
         super(nivel, vida, defesa, ataque, frqueza, resistencias);
     }  
-    
-    //Atributos padrão
-    public Slime(){
-        super(1, 10.0f,5.0f,2.0f);
-    }
 //</editor-fold>
   
     @Override
