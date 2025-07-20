@@ -26,7 +26,7 @@ public class Goblin
     
     @Override
     public void tipoDeInimigo() {
-        System.out.println("Inimigo do tipo Globin criado");
+        System.out.println("Inimigo do tipo Goblin criado");
     }
     
     
